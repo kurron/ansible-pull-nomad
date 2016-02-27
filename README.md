@@ -1,24 +1,16 @@
 #Overview
-This project is a sub-project of the [JVM Development Environment](https://github.com/kurron/jvm-development-environment). 
-The Ansible plays described here will be applied to the Vagrant environment being built.  The purpose of this project 
-is to install the current release of Docker into the Vagrant box.
+This project is a simple Ansible playbook that installs the current version of [Nomad](https://www.nomadproject.io/). 
 
 #Prerequisites
-Nothing additional to what is required by the JVM Development Environment project. 
+* Working installtion of [Ansible](https://www.ansible.com/)
 
 #Building
-All the components of the environment live in repositories on the internet so there is nothing to build.
+The necessary files are pulled from the network so there is nothing to build.
 
 #Installation
-This project is intended to be invoked by the JVM Development Environment project so there is no installation step.
+This project is intended to be invoked by Vagrant so there is nothing to build..
 
 #Tips and Tricks
-
-##Installed Software
-
-* [Docker](https://www.docker.com/)
-* [Docker Compose](https://www.docker.com/)
-* [Docker Machine](https://www.docker.com/)
 
 #Troubleshooting
 
