@@ -11,6 +11,8 @@
   hosts: Ubuntu
   become: True
   tasks:
+    - name: Install Unzip
+      apt: name=unzip state=latest update_cache=true
     - name: Unpack Nomad Archive
       unarchive: src=https://releases.hashicorp.com/nomad/0.3.0/nomad_0.3.0_linux_amd64.zip dest=/usr/local/bin copy=no creates=/usr/local/bin/nomad mode=0555
     - name: Echo Nomad version
